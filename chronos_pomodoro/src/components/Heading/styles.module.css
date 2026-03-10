@@ -1,0 +1,14 @@
+.heading {
+  /*/margin: 3.2rem 0;/* 32px e 0 nas laterais mas é muito melhor alinhar com display flex*/
+  display:flex;
+    align-items: center;
+    gap: 2.4rem;/* 8px de espaçamento entre o ícone e o texto */
+    justify-content: center; 
+    /* aula 14 retirar a cor */
+    /* background-color: blue; */
+
+}
+
+.cyan {
+  color: cyan;
+}

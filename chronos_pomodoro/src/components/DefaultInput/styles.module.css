@@ -1,0 +1,34 @@
+.input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--gray-100);
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--text-default);
+    /* mostrar para os alunos primeiro
+    border: 0.25rem solid var(--primary);
+    depois fazer a transparência no input:foccus
+    */
+    border: 0.2rem transparent;
+    /* para deixar uma linha abaixo usar border bottom */
+    border-bottom: 0.2rem solid var(--primary);
+    padding: 0.8rem;
+}
+/* Para ciência: sempre que for testar faça um padrão de 4 em 4 exemplo
+0.4, 0.8 e assim por diante para visualizar como fica na tela.
+Importante fazer isso porque o objetivo não é ficar exato, mas sim compatível
+aos diversos tamanhos de telas dos usuários.
+O rem é uma unidade de medida que equivale a pixels, exemplo 2.4rem equivale a 24px */
+.input:focus{
+    outline: none;
+    box-shadow: 0 0 0.5rem var(--primary);
+    border: 0.2rem solid var(--primary);
+    border-color: var(--primary-dark);
+    border-radius: 0.8rem;
+    transition: all 0.1s ease-in-out;
+}
+.input::placeholder{
+    color: var(--gray-500);
+    font-size: 1.4rem;
+    font-style: italic;
+}   

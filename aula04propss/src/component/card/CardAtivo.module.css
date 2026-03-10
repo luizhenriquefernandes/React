@@ -1,0 +1,43 @@
+.cardAtivo {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 24px; 
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.cardAtivo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.cardAtivo p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+.cardAtivo span {
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: block;
+  margin-top: 0.5rem;
+}
+.cardativo{
+    background-color: var(--fundo-card);
+    border-radius: 8px;
+    color:var(--baixa);
+    padding: 16px;
+}

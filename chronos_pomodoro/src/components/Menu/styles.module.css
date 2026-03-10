@@ -1,0 +1,35 @@
+.menu{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.6rem;
+    padding-top: top 3.2rem;   
+
+}
+/* 1- FAZER DEPOIS QUE INSERIR A TAG A */
+.menuLink{
+    /* após realizar o .logLink svg tirar o bacground */
+    /* background-color: rgb(255, 0, 0); */
+    display:inline-flex;    
+    justify-content: center;
+    align-items: center;
+    gap:0.4rem;    
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--primary);
+    color:var(--text-over-primary);
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+}
+/* 2 Depois de realizado, importante, o próximo passo é fazer o seguinte:
+ criar uma classe, para que o ícone seja em svg e não perca a qualidade
+*/
+.menuLink svg{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+/* 3 fazer o hover */
+.menuLink:hover{
+    filter: brightness(80%);
+    transition: all ease-in-out 0.2s;
+}

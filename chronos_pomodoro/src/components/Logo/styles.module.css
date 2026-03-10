@@ -1,0 +1,33 @@
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    padding-top: top 3.2rem;;
+}
+/* 1- FAZER DEPOIS QUE INSERIR A TAG A */
+.logoLink{
+    /* após realizar o .logLink svg tirar o bacground */
+    /* background-color: rgb(255, 0, 0); */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.4rem;
+    font-size: 4.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color:var(--primary);
+}
+/* 2 Depois de realizado, importante, o próximo passo é fazer o seguinte:
+ criar uma classe, para que o ícone seja em svg e não perca a qualidade
+*/
+.logoLink svg{
+    width: 6.4rem;
+    height: 6.4rem;
+}
+/* 3 fazer o hover */
+.logoLink:hover{
+    filter: brightness(0.5);
+    transition: all ease-in-out 0.2s;
+}

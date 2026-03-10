@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+/* importante trabalhar a tag a do footer para que fique melhor estilizado */
+.footer a{
+    /*
+        Como usar font-family no CSS:
+
+        - Sintaxe básica:
+                font-family: "Nome da Fonte", familiaSemEspaco, serif;
+
+        - Regras importantes:
+            • Coloque nomes com espaços entre aspas (ex.: "Open Sans").
+            • Liste as fontes na ordem de preferência — o navegador usa a primeira disponível.
+            • Termine sempre com uma família genérica como sans-serif, serif ou monospace.
+            • Forneça fontes de fallback para garantir legibilidade se a fonte primária não estiver disponível.
+
+        - Fontes web:
+            • Para fontes externas, carregue-as antes com @font-face ou um link (ex.: Google Fonts) e use o nome fornecido.
+
+        - Atalho (shorthand) para definir tamanho/altura além da família:
+                font: 16px/1.5 "Nome da Fonte", system-ui, sans-serif;
+    */
+    font-family: 'Pacifico', cursive;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.footer a:hover{
+    color: var(--primary);
+    /* box-shadow: 0.5rem 0.2rem 0.3s ease-in-out; */
+    transform: scale(1.1);
+}

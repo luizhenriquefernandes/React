@@ -1,0 +1,10 @@
+.heading{
+    background-color: var(--fundo-card);
+    font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  color: #1a1a1a; /* Ou #ffffff se seu fundo for escuro */
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.02em;
+  display: block;
+}

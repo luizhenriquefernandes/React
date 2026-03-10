@@ -1,0 +1,8 @@
+h1{
+    color: var(--primary-color);
+    font-family: var(--font-family);
+}
+p{
+    color: var(--secondary-color);
+    font-size: var(--font-size-base);
+}
